@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserWindow</class>
+ <widget class="QMainWindow" name="UserWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>User Dashboard</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="searchInput">
+      <property name="placeholderText">
+       <string>Search PDFs</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListWidget" name="fileList"/>
+    </item>
+    <item>
+     <widget class="QListWidget" name="favoritesList"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="addToFavoritesButton">
+      <property name="text">
+       <string>Add to Favorites</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="removeFromFavoritesButton">
+      <property name="text">
+       <string>Remove from Favorites</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="logoutButton">
+      <property name="text">
+       <string>Logout</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
